@@ -22,12 +22,13 @@ body{
 transition: 0.5s;
 	border-radius: 15px;
 	opacity: 0.3;
+	transform: rotate(180deg);
 }
 .item:hover{
 	box-shadow: 1px 1px 6px black;
 	opacity: 1;
 	transition: 1s;
-	transform: scale(1.5);
+	transform: scale(1.5) rotate(0deg);
 }
 
 
