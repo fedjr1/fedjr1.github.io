@@ -1,6 +1,8 @@
 body{
-	background-color: #9cad94;
-	background-image: url(img/11.jpg);
+	background-image: url(img/11.gif);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
 }
 .main{
 	width: 80%;
@@ -29,6 +31,7 @@ transition: 0.5s;
 	opacity: 1;
 	transition: 1s;
 	transform: scale(1.5) rotate(3600deg);
+	z-index: 9;
 }
 
 
