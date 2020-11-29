@@ -1,0 +1,33 @@
+*{
+	font-family: cursive; 
+}
+
+.navigation{
+	height: 120px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+.LOGO{
+	margin-left: 100px;
+	font-size: 50px;
+}
+.nav-links{
+	margin-right: 90px;
+	font-size: 20px;
+	padding: 5px;
+}
+.nav-links > a{
+text-decoration: none;
+color: black;
+margin: 10px;
+transition: 0.5s;
+padding: 5px;
+}
+.nav-links > a:hover{
+	background-color: black;
+	color: white;
+	transition: 0.5s;
+	border-radius: 5px;
+}
